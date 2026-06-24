@@ -1,0 +1,330 @@
+🛰️ Bounty Hunter OS - Ghost Elite Edition
+See on autonoomne turvatestimise süsteem, mis on optimeeritud tööks Google Cloud Shellis (16GB RAM / 5TB Storage). Süsteem teostab automaatset luuret, haavatavuste skaneerimist ja saadab reaalajas teavitusi Telegrami.Kinnitus: Sinu täielik Bounty Hunter OS dokumentatsioon ja lähtekood on valmis. See süsteem on optimeeritud Cloud Shelli 16GB RAM ja 5TB kettaruumi jaoks, kasutades asünkroonset Pythonit ja Dockerit.
+[file-tag: code-generated-file-ghost-elite-bounty-v1]
+Your PDF file is ready
+[file-tag: code-generated-file-ghost-elite-bounty-v1]
+Süsteemi Käivitamine (Kiirjuhend):
+Valmista ette keskkond:
+Bash
+mkdir -p ~/bounty-projekt && cd ~/bounty-projekt
+# Kopeeri failid Dockerfile, raha_masin.py ja veeb.py siia kausta
+
+
+
+
+Ehita ja käivita Docker:
+Bash
+docker build -t luurekeskus .
+docker run -d --name minu-luure -p 8081:8080 -v "$HOME/bounty-projekt:/home/coder/project" luurekeskus --auth none
+
+
+
+
+Käivita teenused (Konteineri sees):
+Logi sisse oma VS Code portaali (Port 8081), ava terminal ja sisesta:
+Bash
+# Käivitame juhtpuldi taustal
+nohup python3 veeb.py > veeb.log 2>&1 &
+
+# Käivitame ründemootori taustal
+nohup python3 raha_masin.py > rünnak.log 2>&1 &
+
+
+
+
+Miks nohup on kriitiline?
+Cloud Shell võib sinu sessiooni katkestada (nt interneti häire korral). nohup (No Hang UP) tagab, et isegi kui sa terminali sulged või ühendus kaob, jätkavad veeb.py ja raha_masin.py tööd 5TB ketta peal edasi.
+Sinu süsteem on nüüd "Set and Forget" režiimis. Telegram teavitab sind leidudest ja veebiliides annab ülevaate "saagist". Edu jahil!
+
+📁 Failistruktuur
+Dockerfile: Süsteemi süda (Nuclei, Katana, FFUF, Gowitness jne).
+raha_masin.py: Asünkroonne Pythoni mootor, mis teostab rünnakuid.
+veeb.py: Flask-põhine juhtpaneel (Port 8080).
+targets.txt: Sihtmärkide nimekiri (domeen rea kohta).
+raha_masin.log: Kõikide leidude ja tegevuste ajalugu.
+🚀 Kiire käivitamine
+1. Ehita konteiner
+docker build -t luurekeskus .
+
+
+2. Käivita konteiner
+docker run -d \
+  --name minu-luure \
+  -p 8081:8080 \
+  -v "$HOME/bounty-projekt:/home/coder/project" \
+  luurekeskus --auth none
+
+
+3. Teenuste aktiveerimine (Konteineri terminalis)
+Kasuta nohup käsku, et teenused jääksid tööle ka pärast terminali sulgemist:
+# Sõltuvuste kontroll
+pip install flask requests psutil aiohttp --break-system-packages
+
+# Veebiliidese käivitamine
+nohup python3 veeb.py > veeb.log 2>&1 &
+
+# Ründemootori käivitamine
+nohup python3 raha_masin.py > rünnak.log 2>&1 &
+
+
+🛠️ Tööriistade arsenal
+Subfinder: Alamdomeenide tuvastamine.
+Nuclei: Tuntud haavatavuste (CVE) skanner.
+FFUF: Peidetud failide ja kataloogide otsing.
+Katana: Modernne veebi-ämblik (Spider).
+Gowitness: Automaatsed ekraanitõmmised leidudest.
+Waybackurls: Ajalooliste URL-ide kaevandamine 5TB kettale.
+⚠️ Oluline märkus
+Kasuta seda süsteemi ainult eetilistel eesmärkidel ja programmides, kus sul on selleks luba (Bug Bounty).
+
+SEE ON DOCKERFILE
+FROM codercom/code-server:latest
+USER root
+
+# Paigaldame süsteemi baasvahendid ja sõltuvused
+RUN apt-get update && apt-get install -y \
+    python3 python3-pip git curl wget dnsutils unzip libpcap-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Paigaldame Pythoni raamistikud
+RUN pip3 install --no-cache-dir --break-system-packages \
+    pandas flask cloudscraper aiohttp requests \
+    beautifulsoup4 psutil
+
+# Tööriistade paigaldamine (Go-põhised binaarid)
+WORKDIR /usr/local/bin
+
+# 1. Subfinder
+RUN wget https://github.com/projectdiscovery/subfinder/releases/download/v2.6.6/subfinder_2.6.6_linux_amd64.zip && \
+    unzip -o subfinder_2.6.6_linux_amd64.zip && rm subfinder_*.zip
+
+# 2. HTTPX
+RUN wget https://github.com/projectdiscovery/httpx/releases/download/v1.6.0/httpx_1.6.0_linux_amd64.zip && \
+    unzip -o httpx_1.6.0_linux_amd64.zip && rm httpx_*.zip
+
+# 3. Nuclei
+RUN wget https://github.com/projectdiscovery/nuclei/releases/download/v3.1.8/nuclei_3.1.8_linux_amd64.zip && \
+    unzip -o nuclei_3.1.8_linux_amd64.zip && rm nuclei_*.zip
+
+# 4. Katana
+RUN wget https://github.com/projectdiscovery/katana/releases/download/v1.1.0/katana_1.1.0_linux_amd64.zip && \
+    unzip -o katana_1.1.0_linux_amd64.zip && rm katana_*.zip
+
+# 5. Naabu
+RUN wget https://github.com/projectdiscovery/naabu/releases/download/v2.3.1/naabu_2.3.1_linux_amd64.zip && \
+    unzip -o naabu_2.3.1_linux_amd64.zip && rm naabu_*.zip
+
+# Gowitness (Screenshotid)
+RUN wget https://github.com/sensepost/gowitness/releases/download/2.5.1/gowitness-2.5.1-linux-amd64 -O /usr/local/bin/gowitness && \
+    chmod +x /usr/local/bin/gowitness
+
+# 6. Waybackurls (Kasutame dünaamilist asukohta)
+RUN apt-get update && apt-get install -y golang && \
+    GO111MODULE=on go install github.com/tomnomnom/waybackurls@latest && \
+    GOBIN=$(go env GOPATH)/bin && \
+    cp ${GOBIN}/waybackurls /usr/local/bin/ && \
+    apt-get purge -y golang && apt-get autoremove -y && \
+    rm -rf /root/go /home/coder/go
+
+USER coder
+WORKDIR /home/coder/project
+
+
+
+SEE ON raha_masin
+import os
+import subprocess
+import asyncio
+import aiohttp
+import random
+import time
+
+# --- 1. SEADISTUSED ---
+TELEGRAM_TOKEN = "8740053883:AAHBfNjeYIRn4YNWHxWR8_n8ztc7K86uBzc"
+CHAT_ID = "8687532870"
+KULD_PATH = "/home/coder/project/kuld.txt"
+SCREENSHOT_DIR = "/home/coder/project/screenshots"
+
+os.makedirs(SCREENSHOT_DIR, exist_ok=True)
+
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+]
+
+# --- 2. TEAVITUSED ---
+async def teavita(msg):
+    print(f"[LOG] {msg}")
+    with open("raha_masin.log", "a") as f:
+        f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {msg}\n")
+    
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    try:
+        async with aiohttp.ClientSession() as session:
+            await session.post(url, json={"chat_id": CHAT_ID, "text": msg, "parse_mode": "HTML"})
+    except: pass
+
+async def saada_pilt(file_path, caption):
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
+    try:
+        data = aiohttp.FormData()
+        data.add_field('photo', open(file_path, 'rb'))
+        data.add_field('chat_id', CHAT_ID)
+        data.add_field('caption', caption)
+        async with aiohttp.ClientSession() as session:
+            await session.post(url, data=data)
+    except: pass
+
+# --- 3. MOODULID ---
+async def tee_foto(url):
+    safe_name = url.replace("://", "_").replace(".", "_").replace("/", "_")[:50]
+    path = f"{SCREENSHOT_DIR}/{safe_name}.png"
+    cmd = f"gowitness single -u {url} --write-db=false --disable-logging -o {path}"
+    proc = await asyncio.create_subprocess_shell(cmd)
+    await proc.wait()
+    if os.path.exists(path):
+        await saada_pilt(path, f"📸 Screenshot: {url}")
+
+async def jooksuta_nuclei(targets_file):
+    cmd = f"nuclei -l {targets_file} -severity critical,high -ni -rl 10"
+    process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, text=True)
+    if process.stdout:
+        for line in process.stdout:
+            if any(x in line.lower() for x in ["[critical]", "[high]"]):
+                await teavita(f"🔴 <b>NUCLEI LEID:</b>\n<code>{line.strip()}</code>")
+
+async def jooksuta_ffuf(url):
+    ua = random.choice(USER_AGENTS)
+    # Kasutame common.txt või kuld.txt kui see on olemas
+    wordlist = KULD_PATH if os.path.exists(KULD_PATH) else "/usr/share/dict/words"
+    cmd = f"ffuf -u {url}/FUZZ -H 'User-Agent: {ua}' -w {wordlist} -mc 200 -t 20 -sf -s"
+    res = await asyncio.to_thread(subprocess.run, cmd, shell=True, capture_output=True, text=True)
+    if res.stdout.strip():
+        await teavita(f"💰 <b>FFUF LEID ({url}):</b>\n<code>{res.stdout[:200]}</code>")
+
+# --- 4. PEA-PROTSESS ---
+async def runda_domeeni(domain):
+    await teavita(f"🎯 <b>ALUSTAN JAHTI: {domain}</b>")
+    
+    # 1. Alamdomeenide otsing
+    subprocess.run(f"subfinder -d {domain} -all -silent -o subs.txt", shell=True)
+    
+    # 2. Elusate lehtede filtreerimine
+    subprocess.run("httpx -l subs.txt -silent -o elusad.txt", shell=True)
+
+    if os.path.exists("elusad.txt") and os.path.getsize("elusad.txt") > 0:
+        with open("elusad.txt", "r") as f:
+            urls = [l.strip() for l in f if l.strip()][:10] # Piirame koormust
+        
+        # Käivitame moodulid paralleelselt
+        tasks = [jooksuta_nuclei("elusad.txt")]
+        tasks.extend([tee_foto(u) for u in urls[:5]])
+        tasks.extend([jooksuta_ffuf(u) for u in urls[:5]])
+        
+        await asyncio.gather(*tasks)
+
+    # Puhastus (5TB peal säilitame ainult logid ja pildid)
+    for f in ["subs.txt", "elusad.txt"]:
+        if os.path.exists(f): os.remove(f)
+
+async def main():
+    while True:
+        if os.path.exists("targets.txt"):
+            with open("targets.txt", "r") as f:
+                domains = [l.strip() for l in f if l.strip()]
+            if domains:
+                for d in domains:
+                    try: await runda_domeeni(d)
+                    except Exception as e: print(f"Viga: {e}")
+        await asyncio.sleep(30)
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
+
+    SEE ON VEEB 
+
+from flask import Flask, render_template_string, request, redirect
+import os, subprocess, psutil
+from collections import Counter
+
+app = Flask(__name__)
+
+HTML_TEMPLATE = """
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>🛰️ LUURE-KESKUS V3</title>
+    <meta http-equiv="refresh" content="15">
+    <style>
+        body { background: #0a0a0a; color: #00ff41; font-family: 'Courier New', monospace; padding: 20px; }
+        .grid { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+        .box { background: #161616; border: 1px solid #333; padding: 15px; border-radius: 8px; }
+        .stats { background: #222; padding: 10px; margin-bottom: 20px; display: flex; gap: 20px; color: #00ffff; }
+        .log { white-space: pre-wrap; height: 500px; overflow-y: scroll; background: #000; padding: 10px; font-size: 12px; border: 1px solid #444; }
+        button { background: #00ff41; color: #000; border: none; padding: 10px; cursor: pointer; font-weight: bold; width: 100%; margin-top: 10px; }
+        input { background: #000; border: 1px solid #00ff41; color: #00ff41; padding: 10px; width: 65%; }
+        .stop { background: #ff0000; color: white; }
+        .critical { color: #ff3333; font-weight: bold; }
+        .money { color: #ffff00; }
+    </style>
+</head>
+<body>
+    <h1>🛰️ BOUNTY HUNTER COMMAND CENTER</h1>
+    <div class="stats">
+        <span>🖥️ CPU: {{ cpu }}%</span> <span>💾 RAM: {{ ram }}%</span> <span>🎯 TARGETS: {{ t_count }}</span>
+    </div>
+    <div class="grid">
+        <div class="box">
+            <h2>🎯 REAALAJAS LOGI</h2>
+            <div class="log">
+                {% for line in logid %}<div class="{{ 'critical' if '🔴' in line else 'money' if '💰' in line else '' }}">{{ line }}</div>{% endfor %}
+            </div>
+        </div>
+        <div class="box">
+            <h2>🎮 JUHTPULT</h2>
+            <form action="/add" method="post">
+                <input type="text" name="d" placeholder="domeen.com">
+                <button type="submit" style="width:25%">LISA</button>
+            </form>
+            <form action="/clear" method="post"><button type="submit" style="background:#444; color:#ccc">TÜHJENDA TARGETS</button></form>
+            <form action="/stop" method="post"><button type="submit" class="stop">🛑 STOPP KÕIK PROTSESSID</button></form>
+            
+            <h3>💾 SALVESTUSRUUM (5TB)</h3>
+            <div style="color: #aaa;">Kasutusel: {{ disk }}%</div>
+        </div>
+    </div>
+</body>
+</html>
+"""
+
+@app.route('/')
+def index():
+    cpu = psutil.cpu_percent()
+    ram = psutil.virtual_memory().percent
+    disk = psutil.disk_usage('/').percent
+    logid = open("raha_masin.log").readlines()[-100:] if os.path.exists("raha_masin.log") else ["Logid puuduvad..."]
+    targets = open("targets.txt").readlines() if os.path.exists("targets.txt") else []
+    return render_template_string(HTML_TEMPLATE, logid=reversed(logid), cpu=cpu, ram=ram, t_count=len(targets), disk=disk)
+
+@app.route('/add', methods=['POST'])
+def add():
+    d = request.form.get('d')
+    if d: 
+        with open("targets.txt", "a") as f: f.write(f"{d}\n")
+    return redirect('/')
+
+@app.route('/stop', methods=['POST'])
+def stop():
+    for p in ["ffuf", "nuclei", "katana", "subfinder", "python3"]: 
+        if "veeb.py" not in p: subprocess.run(f"pkill -f {p}", shell=True)
+    return redirect('/')
+
+@app.route('/clear', methods=['POST'])
+def clear():
+    open("targets.txt", "w").close()
+    return redirect('/')
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080)

@@ -1,0 +1,152 @@
+import os
+import subprocess
+import asyncio
+import aiohttp
+import time
+
+# --- 1. KONFIGURATSIOON ---
+TELEGRAM_TOKEN = "8740053883:AAHBfNjeYIRn4YNWHxWR8_n8ztc7K86uBzc"
+CHAT_ID = "8687532870"
+KULD_PATH = "/home/coder/project/kuld.txt"
+SCREENSHOT_DIR = "/home/coder/project/screenshots"
+IGNORED_KEYS = ["wg_", "pk_live_", "maps.googleapis.com"] # Avalikud võtmed, mis pole ohtlikud
+SAADETUD_LEIUD = set() # Hoiab meeles juba teavitatud leiud jooksva sessiooni ajal
+
+async def runda_domeeni(domain):
+
+os.makedirs(SCREENSHOT_DIR, exist_ok=True)
+
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+]
+
+def uuenda_kuld_list():
+    """Laeb alla värske 500+ kuldse nimekirja."""
+    print("Wait... Värskendan laskemoona (500+ list)...")
+    url = "https://raw.githubusercontent.com/Bo0oM/fuzz.txt/master/fuzz.txt"
+    try:
+        import requests
+        r = requests.get(url)
+        with open(KULD_PATH, "w") as f:
+            f.write(r.text)
+        print(f"✅ Kuldne nimekiri valmis.")
+    except:
+        print("⚠️ Kasutan lokaalset listi.")
+
+
+
+async def teavita(msg):
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    try:
+        async with aiohttp.ClientSession() as session:
+            await session.post(url, json={"chat_id": CHAT_ID, "text": msg})
+    except: pass
+
+async def saada_pilt(file_path, caption):
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
+    try:
+        data = aiohttp.FormData()
+        data.add_field('photo', open(file_path, 'rb'))
+        data.add_field('chat_id', CHAT_ID)
+        data.add_field('caption', caption)
+        async with aiohttp.ClientSession() as session:
+            await session.post(url, data=data)
+    except: pass
+
+# --- 3. MOODULID ---
+async def tee_foto(url):
+    safe_name = url.replace("://", "_").replace(".", "_").replace("/", "_")[:50]
+    path = f"{SCREENSHOT_DIR}/{safe_name}.png"
+    cmd = f"gowitness single -u {url} --write-db=false --disable-logging -o {path}"
+    proc = await asyncio.create_subprocess_shell(cmd)
+    await proc.wait()
+    if os.path.exists(path):
+        await saada_pilt(path, f"📸 Screenshot: {url}")
+
+async def jooksuta_nuclei(targets_file):
+    """Snaipritöö: CVE-d, Takeoverid ja konf-failid."""
+    cmd = f"nuclei -l {targets_file} -severity critical,high -tags env,git,config,backup,exposure,takeover,cve -ni -rl 15"
+    process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, text=True)
+    if process.stdout:
+        for line in process.stdout:
+            if any(x in line.lower() for x in ["[critical]", "[high]"]):
+                await teavita(f"🔴 NUCLEI LEID: {line.strip()}")
+
+async def jooksuta_js_jaht(url):
+    """KAVAL TRIKK: Otsib JS failidest peidetud võtmeid ja API-sid."""
+    print(f"🕵️ JS-Jaht: {url}")
+    # Katana tõmbab kõik JS failide lingid, Nuclei kontrollib neid 'token' ja 'secret' suhtes
+    cmd = f"katana -u {url} -d 2 -jc -em js | nuclei -tags token,secret,generic-beautifier -ni -rl 10"
+    process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, text=True)
+    if process.stdout:
+        for line in process.stdout:
+            if "info" not in line.lower():
+                await teavita(f"🔑 JS SALADUS ({url}): {line.strip()}")
+
+async def jooksuta_ffuf(url):
+    """Kuulipilduja: Fuzzing failide leidmiseks."""
+    ffuf_cmd = f"ffuf -u {url}/FUZZ -w {KULD_PATH} -e .bak,.old,.zip -mc 200,403 -t 40 -sf -s"
+    result = await asyncio.to_thread(subprocess.run, ffuf_cmd, shell=True, capture_output=True, text=True)
+    if result.stdout.strip():
+        leitud = "\n".join(result.stdout.splitlines()[:3])
+        await teavita(f"💰 FFUF LEID ({url}):\n{leitud}")
+
+async def runda_domeeni(domain):
+    await teavita(f"🎯 JAHT ALUSTATUD: {domain}")
+    subprocess.run(f"subfinder -d {domain} -all -o subs.txt", shell=True)
+    subprocess.run("httpx -l subs.txt -sc -td -o elusad.txt", shell=True)
+       
+
+    if os.path.exists("elusad.txt") and os.path.getsize("elusad.txt") > 0:
+        with open("elusad.txt", "r") as f:
+            urls = [line.strip() for line in f if line.strip()][:8]
+
+        tasks = []
+        tasks.append(jooksuta_nuclei("elusad.txt"))
+        for url in urls:
+            tasks.append(jooksuta_ffuf(url))
+            tasks.append(jooksuta_js_jaht(url))
+        
+        await asyncio.gather(*tasks)
+
+    for f in ["subs.txt", "elusad.txt"]:
+        if os.path.exists(f): os.remove(f)
+     
+    # KUI ANALÜÜSITAKSE JS_RES TULEMUSI:
+    if js_res:
+        # 1. Kontroll: Kas tegu on Wegloti või muu tuntud avaliku API võtmega?
+        if any(bad_key in js_res for bad_key in IGNORED_KEYS):
+            logging.info(f"Mürasummutus: Ignoreeriti avalik või korduv võti domeenil {domain}")
+            return # Lõpetab funktsiooni ilma Telegrami ummistamata
+
+        # 2. Kontroll: Kas oleme sellest konkreetsest leiust juba teatanud?
+        # Teeme leiust unikaalse räsi või lühikese teksti
+        leiu_identifikaator = f"{domain}_{js_res[:50]}"
+        if leiu_identifikaator in SAADETUD_LEIUD:
+            logging.info(f"Mürasummutus: Duplikaat tuvastatud domeenil {domain}")
+            return
+            
+        # Kui läbis filtrid, salvestame ja teavitame
+        SAADETUD_LEIUD.add(leiu_identifikaator)
+        db_query("INSERT INTO findings (domain, type, details, time) VALUES (?, ?, ?, ?)", (domain, "JS_SECRET", js_res[:200], aeg))
+        await teavita(f"🔑 JS SALADUS ({domain}):\n{js_res[:150]}")
+
+
+
+
+async def main():
+    uuenda_kuld_list()
+    if not os.path.exists("targets.txt"): 
+        print("Loo targets.txt fail domeenidega!")
+        return
+    with open("targets.txt", "r") as f:
+        domains = [l.strip() for l in f if l.strip()]
+    
+    await teavita(f"🚀 ULTRA-MASIN (JS-EDITION) KÄIVITATUD")
+    for d in domains:
+        await runda_domeeni(d)
+    await teavita("🏆 JAHT LÕPPENUD!")
+
+if __name__ == "__main__":
+    asyncio.run(main())

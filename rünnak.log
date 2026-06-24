@@ -1,0 +1,3109 @@
+nohup: ignoring input
+2026-06-12 14:19:04,768 - INFO - Wait... Värskendan laskemoona (500+ list)...
+2026-06-12 14:19:04,896 - INFO - ✅ Kuldne nimekiri valmis.
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for aasa.fi
+[[34mINF[0m] Found 0 subdomains for aasa.fi in 30 seconds 1 millisecond
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+http://hakemus.ainalaina.fi [[32m200[0m] [[35mBootstrap:3.4.1,Nginx,OpenResty[0m]
+https://www.ainalainamobi.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+https://ainalaina.mobi.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+https://ainalainamobi.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+https://ainalainanet.ainalaina.fi [[32m200[0m] [[35mApache HTTP Server[0m]
+https://apollocapitalspain.com.ainalaina.fi [[32m200[0m] [[35mApache HTTP Server[0m]
+https://webdisk.ainalaina.fi [[31m401[0m] [[35mBasic[0m]
+https://cpanel.ainalaina.fi [[32m200[0m] [[35mApache HTTP Server,cPanel[0m]
+https://www.pikavippicc.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+https://cpcalendars.ainalaina.fi [[31m401[0m] [[35mBasic[0m]
+https://cpcontacts.ainalaina.fi [[31m401[0m] [[35mBasic[0m]
+https://pikavippi.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+https://webmail.ainalaina.fi [[32m200[0m] [[35mApache HTTP Server[0m]
+https://mail.ainalaina.fi [[33m302[0m] [[35mApache HTTP Server,PHP:7.2.34[0m]
+https://www.ainalaina.fi [[33m301[0m] [[35mApache HTTP Server[0m]
+https://www.ainalaina.mobi.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+http://www.hakemus.ainalaina.fi [[32m200[0m] [[35mBootstrap:3.4.1,Nginx,OpenResty[0m]
+https://pikavippicc.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+https://www.apollocapitalspain.com.ainalaina.fi [[32m200[0m] [[35mApache HTTP Server[0m]
+https://www.ainalainanet.ainalaina.fi [[32m200[0m] [[35mApache HTTP Server[0m]
+https://www.pikavippi.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 21
+[[34mINF[0m] Templates clustered: 207 (Reduced 3801 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 14:33:38,068 - INFO - 🕵️ JS-Jaht: http://hakemus.ainalaina.fi [[32m200[0m] [[35mBootstrap:3.4.1,Nginx,OpenResty[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => http://hakemus.ainalaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 14:34:00,691 - INFO - 🕵️ JS-Jaht: https://www.ainalainamobi.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.ainalainamobi.ainalaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 14:34:28,323 - INFO - 🕵️ JS-Jaht: https://ainalaina.mobi.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://ainalaina.mobi.ainalaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 14:34:53,576 - INFO - 🕵️ JS-Jaht: https://ainalainamobi.ainalaina.fi [[31m403[0m] [[35mApache HTTP Server[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://ainalainamobi.ainalaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 14:35:17,405 - INFO - 🕵️ JS-Jaht: https://ainalainanet.ainalaina.fi [[32m200[0m] [[35mApache HTTP Server[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://ainalainanet.ainalaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 10
+[[34mINF[0m] Templates clustered: 95 (Reduced 930 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 14:36:49,474 - INFO - 🕵️ JS-Jaht: https://apollocapitalspain.com.ainalaina.fi [[32m200[0m] [[35mApache HTTP Server[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://apollocapitalspain.com.ainalaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 10
+[[34mINF[0m] Templates clustered: 95 (Reduced 930 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 14:38:21,518 - INFO - 🕵️ JS-Jaht: https://webdisk.ainalaina.fi [[31m401[0m] [[35mBasic[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://webdisk.ainalaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 14:38:48,115 - INFO - 🕵️ JS-Jaht: https://cpanel.ainalaina.fi [[32m200[0m] [[35mApache HTTP Server,cPanel[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://cpanel.ainalaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 71
+[[34mINF[0m] Templates clustered: 95 (Reduced 6603 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:00:42,399 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: aasa.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:00:42,400 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: aasa.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:00:42,400 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: aasa.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:00:42,401 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: aasa.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:00:42,401 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: aasa.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:00:42,401 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: aasa.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:00:42,401 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: aasa.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for ainalaina.fi
+www.pikavippi.ainalaina.fi
+ainalaina.mobi.ainalaina.fi
+ainalainamobi.ainalaina.fi
+cpcontacts.ainalaina.fi
+mail.ainalaina.fi
+webdisk.ainalaina.fi
+www.hakemus.ainalaina.fi
+www.pikavippicc.ainalaina.fi
+webmail.ainalaina.fi
+www.ainalaina.fi
+cpanel.ainalaina.fi
+pikavippi.ainalaina.fi
+ainalainanet.ainalaina.fi
+www.secure.ainalaina.fi
+www.ainalainanet.ainalaina.fi
+www.ainalainamobi.ainalaina.fi
+secure.ainalaina.fi
+ainalaina.fi
+www.ainalaina.mobi.ainalaina.fi
+hakemus.ainalaina.fi
+cpcalendars.ainalaina.fi
+pikavippicc.ainalaina.fi
+apollocapitalspain.com.ainalaina.fi
+www.apollocapitalspain.com.ainalaina.fi
+[[34mINF[0m] Found 24 subdomains for ainalaina.fi in 1 minute 2 seconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+http://hakemus.ainalaina.fi [[32m200[0m] [[35mBootstrap:3.4.1,Nginx,OpenResty[0m]
+http://www.hakemus.ainalaina.fi [[32m200[0m] [[35mBootstrap:3.4.1,Nginx,OpenResty[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 2
+[[34mINF[0m] Templates clustered: 207 (Reduced 362 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:03:37,277 - INFO - 🕵️ JS-Jaht: http://hakemus.ainalaina.fi [[32m200[0m] [[35mBootstrap:3.4.1,Nginx,OpenResty[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => http://hakemus.ainalaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:03:59,718 - INFO - 🕵️ JS-Jaht: http://www.hakemus.ainalaina.fi [[32m200[0m] [[35mBootstrap:3.4.1,Nginx,OpenResty[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => http://www.hakemus.ainalaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:04:22,165 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: ainalaina.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for alinarahoitus.fi
+[[34mINF[0m] Found 0 subdomains for alinarahoitus.fi in 55 seconds 18 milliseconds
+2026-06-12 15:05:17,547 - WARNING - ⚠️ Subfinder ei leidnud alamdomeene domeenile alinarahoitus.fi
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for amex.fi
+www.amex.fi
+[[34mINF[0m] Found 1 subdomains for amex.fi in 25 seconds 16 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://www.amex.fi [[32m200[0m] [[35mHSTS[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 207 (Reduced 181 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:06:36,387 - INFO - 🕵️ JS-Jaht: https://www.amex.fi [[32m200[0m] [[35mHSTS[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.amex.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 23
+[[34mINF[0m] Templates clustered: 95 (Reduced 2139 Requests)
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for a-otto.fi
+www.a-otto.fi
+cpanel.a-otto.fi
+cpcalendars.a-otto.fi
+cpcontacts.a-otto.fi
+mail.a-otto.fi
+webdisk.a-otto.fi
+webmail.a-otto.fi
+[[34mINF[0m] Found 7 subdomains for a-otto.fi in 30 seconds 3 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://www.a-otto.fi [[32m200[0m] [[35mApache HTTP Server:2.4.52,Ubuntu[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 207 (Reduced 181 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:11:12,912 - INFO - 🕵️ JS-Jaht: https://www.a-otto.fi [[32m200[0m] [[35mApache HTTP Server:2.4.52,Ubuntu[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.a-otto.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 5
+[[34mINF[0m] Templates clustered: 95 (Reduced 465 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for apulaina.fi
+mail.apulaina.fi
+www.apulaina.fi
+[[34mINF[0m] Found 2 subdomains for apulaina.fi in 50 seconds 12 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://mail.apulaina.fi [[31m404[0m] [[35mNginx[0m]
+https://www.apulaina.fi [[32m200[0m] [[35mNginx[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 2
+[[34mINF[0m] Templates clustered: 207 (Reduced 362 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:14:31,010 - INFO - 🕵️ JS-Jaht: https://mail.apulaina.fi [[31m404[0m] [[35mNginx[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://mail.apulaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:15:02,870 - INFO - 🕵️ JS-Jaht: https://www.apulaina.fi [[32m200[0m] [[35mNginx[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.apulaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 3
+[[34mINF[0m] Templates clustered: 95 (Reduced 279 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:16:01,927 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: apulaina.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for arkivippi.fi
+www.vk.arkivippi.fi
+cpcontacts.arkivippi.fi
+mail.arkivippi.fi
+oe.arkivippi.fi
+cpcalendars.arkivippi.fi
+www.ca.arkivippi.fi
+www.oe.arkivippi.fi
+vk.arkivippi.fi
+webdisk.arkivippi.fi
+webmail.arkivippi.fi
+ca.arkivippi.fi
+ff.arkivippi.fi
+www.ff.arkivippi.fi
+gg.arkivippi.fi
+www.gg.arkivippi.fi
+ol.arkivippi.fi
+www.ol.arkivippi.fi
+www.arkivippi.fi
+cpanel.arkivippi.fi
+[[34mINF[0m] Found 19 subdomains for arkivippi.fi in 30 seconds 2 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://gg.arkivippi.fi [[31m436[0m]
+https://cpcalendars.arkivippi.fi [[31m436[0m]
+https://cpcontacts.arkivippi.fi [[33m302[0m]
+https://oe.arkivippi.fi [[31m436[0m]
+https://www.ol.arkivippi.fi [[31m432[0m]
+https://mail.arkivippi.fi [[33m302[0m]
+https://webmail.arkivippi.fi [[31m436[0m]
+https://www.ca.arkivippi.fi [[33m302[0m]
+https://ff.arkivippi.fi [[31m436[0m]
+https://www.oe.arkivippi.fi [[31m436[0m]
+https://www.vk.arkivippi.fi [[33m302[0m]
+https://www.gg.arkivippi.fi [[31m436[0m]
+https://ol.arkivippi.fi [[31m436[0m]
+https://www.arkivippi.fi [[31m436[0m]
+https://webdisk.arkivippi.fi [[33m302[0m]
+https://cpanel.arkivippi.fi [[31m436[0m]
+https://vk.arkivippi.fi [[31m436[0m]
+https://ca.arkivippi.fi [[31m436[0m]
+https://www.ff.arkivippi.fi [[31m436[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 19
+[[34mINF[0m] Templates clustered: 207 (Reduced 3439 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:29:15,864 - INFO - 🕵️ JS-Jaht: https://gg.arkivippi.fi [[31m436[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://gg.arkivippi.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:29:38,557 - INFO - 🕵️ JS-Jaht: https://cpcalendars.arkivippi.fi [[31m436[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://cpcalendars.arkivippi.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:30:01,392 - INFO - 🕵️ JS-Jaht: https://cpcontacts.arkivippi.fi [[33m302[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://cpcontacts.arkivippi.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:30:24,311 - INFO - 🕵️ JS-Jaht: https://oe.arkivippi.fi [[31m436[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://oe.arkivippi.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:30:46,917 - INFO - 🕵️ JS-Jaht: https://www.ol.arkivippi.fi [[31m432[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.ol.arkivippi.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:31:09,560 - INFO - 🕵️ JS-Jaht: https://mail.arkivippi.fi [[33m302[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://mail.arkivippi.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:31:33,601 - INFO - 🕵️ JS-Jaht: https://webmail.arkivippi.fi [[31m436[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://webmail.arkivippi.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:31:56,234 - INFO - 🕵️ JS-Jaht: https://www.ca.arkivippi.fi [[33m302[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.ca.arkivippi.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:32:18,878 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: arkivippi.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:32:18,879 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: arkivippi.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:32:18,879 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: arkivippi.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:32:18,879 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: arkivippi.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:32:18,879 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: arkivippi.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:32:18,880 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: arkivippi.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 15:32:18,880 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: arkivippi.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for a-vippi.fi
+a-vippi.fi
+[[34mINF[0m] Found 1 subdomains for a-vippi.fi in 30 seconds 2 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for axolaina.fi
+go.axolaina.fi
+www.axolaina.fi
+[[34mINF[0m] Found 2 subdomains for axolaina.fi in 30 seconds 91 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://www.axolaina.fi [[33m308[0m] [[35mHSTS,Vercel[0m]
+https://go.axolaina.fi [[33m302[0m] [[35mNginx[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 2
+[[34mINF[0m] Templates clustered: 207 (Reduced 362 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 15:34:55,516 - INFO - 🕵️ JS-Jaht: https://www.axolaina.fi [[33m308[0m] [[35mHSTS,Vercel[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.axolaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 272
+[[34mINF[0m] Running httpx on input host
+[[34mINF[0m] Found 1 URL from httpx
+[[34mINF[0m] Templates clustered: 95 (Reduced 25296 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 16:09:33,976 - INFO - 🕵️ JS-Jaht: https://go.axolaina.fi [[33m302[0m] [[35mNginx[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://go.axolaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 3
+[[34mINF[0m] Templates clustered: 95 (Reduced 279 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 16:10:13,877 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: axolaina.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for bluefinance.fi
+hallinta.bluefinance.fi
+www.hallinta.bluefinance.fi
+www.bluefinance.bluefinance.fi
+www.pikavipit.bluefinance.fi
+asiakaspalvelu.bluefinance.fi
+www.bluefinance.fi
+pikavipit.bluefinance.fi
+secure.bluefinance.fi
+www.pikavippi.bluefinance.fi
+www.broaden.bluefinance.fi
+pikavippi.bluefinance.fi
+api.bluefinance.fi
+bluefinancegroup.bluefinance.fi
+www.pikalainat.bluefinance.fi
+links.mail.bluefinance.fi
+bluefinance.bluefinance.fi
+www.vippi.bluefinance.fi
+www.pikaluotto.bluefinance.fi
+www.bluefinancegroup.bluefinance.fi
+bluefinance.fi
+cpcontacts.bluefinance.fi
+sininenlaina.bluefinance.fi
+www.posti.bluefinance.fi
+www.sininenlaina.bluefinance.fi
+www.pikalaina.bluefinance.fi
+broaden.bluefinance.fi
+posti.bluefinance.fi
+www.secure.bluefinance.fi
+pikalaina.bluefinance.fi
+vippi.bluefinance.fi
+osinkotuottoa.bluefinance.fi
+www.osinkotuottoa.bluefinance.fi
+cpcalendars.bluefinance.fi
+yritys.bluefinance.fi
+staging.bluefinance.fi
+pikalainat.bluefinance.fi
+pikaluotto.bluefinance.fi
+[[34mINF[0m] Found 37 subdomains for bluefinance.fi in 35 seconds 764 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://bluefinance.fi [[33m301[0m] [[35mApache HTTP Server[0m]
+https://cpcalendars.bluefinance.fi [[31m401[0m] [[35mBasic,HTTP/3,LiteSpeed[0m]
+https://pikalaina.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://vippi.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://bluefinancegroup.bluefinance.fi [[33m301[0m] [[35mHTTP/3,LiteSpeed,Litespeed Cache[0m]
+https://pikavippi.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://asiakaspalvelu.bluefinance.fi [[33m302[0m] [[35mCloudflare,Cloudflare Bot Management,Envoy,HSTS,Zendesk[0m]
+https://broaden.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://hallinta.bluefinance.fi [[31m403[0m] [[35mApache HTTP Server:2.4.6,CentOS,OpenSSL:1.0.2k,PHP:5.4.16[0m]
+https://links.mail.bluefinance.fi [[1;33m501[0m]
+https://api.bluefinance.fi [[32m200[0m] [[35mNginx,PHP:8.1.31[0m]
+https://pikaluotto.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://cpcontacts.bluefinance.fi [[31m401[0m] [[35mBasic,HTTP/3,LiteSpeed[0m]
+https://sininenlaina.bluefinance.fi [[32m200[0m] [[35mGoogle Tag Manager,HTTP/3,LiteSpeed,jQuery,prettyPhoto[0m]
+https://www.pikalainat.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://www.pikavipit.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://osinkotuottoa.bluefinance.fi [[33m301[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://www.pikavippi.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://www.pikaluotto.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://www.osinkotuottoa.bluefinance.fi [[33m301[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://www.broaden.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://www.posti.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://www.bluefinancegroup.bluefinance.fi [[33m301[0m] [[35mHTTP/3,LiteSpeed,Litespeed Cache[0m]
+https://posti.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://pikalainat.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://secure.bluefinance.fi [[32m200[0m] [[35mApache HTTP Server:2.4.6,CentOS,Google Tag Manager,MySQL,OpenSSL:1.0.2k,PHP:5.4.16,WordPress[0m]
+https://www.bluefinance.fi [[32m200[0m] [[35mApache HTTP Server,Elementor:3.23.4,Google Tag Manager,MySQL,PHP,Site Kit:1.180.0,WordPress:6.8.5,Yoast SEO:27.8[0m]
+https://pikavipit.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://www.pikalaina.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+https://yritys.bluefinance.fi [[33m301[0m] [[35mApache HTTP Server[0m]
+https://bluefinance.bluefinance.fi [[33m301[0m] [[35mHTTP/3,LiteSpeed,MySQL,PHP,WordPress[0m]
+https://www.bluefinance.bluefinance.fi [[33m301[0m] [[35mHTTP/3,LiteSpeed,MySQL,PHP,WordPress[0m]
+http://www.vippi.bluefinance.fi [[32m200[0m] [[35mLiteSpeed[0m]
+http://www.sininenlaina.bluefinance.fi [[32m200[0m] [[35mGoogle Tag Manager,LiteSpeed,jQuery,prettyPhoto[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 34
+[[34mINF[0m] Templates clustered: 207 (Reduced 6154 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 16:33:19,756 - INFO - 🕵️ JS-Jaht: https://bluefinance.fi [[33m301[0m] [[35mApache HTTP Server[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://bluefinance.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 225
+[[34mINF[0m] Running httpx on input host
+[[34mINF[0m] Found 1 URL from httpx
+[[34mINF[0m] Templates clustered: 95 (Reduced 20925 Requests)
+2026-06-12 16:36:44,691 - INFO - 🕵️ JS-Jaht: https://cpcalendars.bluefinance.fi [[31m401[0m] [[35mBasic,HTTP/3,LiteSpeed[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://cpcalendars.bluefinance.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 16:37:15,531 - INFO - 🕵️ JS-Jaht: https://pikalaina.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Started standard crawling for => https://pikalaina.bluefinance.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 16:37:44,390 - INFO - 🕵️ JS-Jaht: https://vippi.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Started standard crawling for => https://vippi.bluefinance.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 16:38:14,295 - INFO - 🕵️ JS-Jaht: https://bluefinancegroup.bluefinance.fi [[33m301[0m] [[35mHTTP/3,LiteSpeed,Litespeed Cache[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://bluefinancegroup.bluefinance.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 59
+[[34mINF[0m] Templates clustered: 95 (Reduced 5487 Requests)
+2026-06-12 16:46:08,153 - INFO - 🕵️ JS-Jaht: https://pikavippi.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://pikavippi.bluefinance.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 16:46:31,854 - INFO - 🕵️ JS-Jaht: https://asiakaspalvelu.bluefinance.fi [[33m302[0m] [[35mCloudflare,Cloudflare Bot Management,Envoy,HSTS,Zendesk[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://asiakaspalvelu.bluefinance.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 3
+[[34mINF[0m] Templates clustered: 95 (Reduced 279 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 16:47:18,054 - INFO - 🕵️ JS-Jaht: https://broaden.bluefinance.fi [[32m200[0m] [[35mHTTP/3,LiteSpeed[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://broaden.bluefinance.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 11
+[[34mINF[0m] Templates clustered: 95 (Reduced 1023 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 16:48:57,760 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: bluefinance.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 16:48:57,760 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: bluefinance.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 16:48:57,760 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: bluefinance.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 16:48:57,761 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: bluefinance.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 16:48:57,761 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: bluefinance.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 16:48:57,761 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: bluefinance.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 16:48:57,761 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: bluefinance.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 16:48:57,762 - ERROR - Telegrami teavitus ebaõnnestus: 
+2026-06-12 17:02:35,121 - ERROR - Telegrami teavitus ebaõnnestus: 
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for bonuslaina.fi
+www.bonuslaina.fi
+[[34mINF[0m] Found 1 subdomains for bonuslaina.fi in 30 seconds 5 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for capitum.fi
+mail.capitum.fi
+smtp.capitum.fi
+intranet.capitum.fi
+[[34mINF[0m] Found 3 subdomains for capitum.fi in 30 seconds 2 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for cashday.fi
+www.cashday.fi
+epf.cashday.fi
+[[34mINF[0m] Found 2 subdomains for cashday.fi in 30 seconds 134 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://epf.cashday.fi [[32m200[0m]
+https://www.cashday.fi [[32m200[0m] [[35mGoogle Tag Manager,HTTP/3,LiteSpeed,MySQL,PHP,Site Kit:1.121.0,WP Rocket,WPML:4.5.13,WordPress:6.4.3[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 2
+[[34mINF[0m] Templates clustered: 207 (Reduced 362 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 17:05:42,605 - INFO - 🕵️ JS-Jaht: https://epf.cashday.fi [[32m200[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://epf.cashday.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 17:06:09,466 - INFO - 🕵️ JS-Jaht: https://www.cashday.fi [[32m200[0m] [[35mGoogle Tag Manager,HTTP/3,LiteSpeed,MySQL,PHP,Site Kit:1.121.0,WP Rocket,WPML:4.5.13,WordPress:6.4.3[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.cashday.fi
+[[34mINF[0m] Supplied input was automatically deduplicated (1 removed).
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 176
+[[34mINF[0m] Running httpx on input host
+[[34mINF[0m] Found 2 URL from httpx
+[[34mINF[0m] Templates clustered: 95 (Reduced 16368 Requests)
+2026-06-12 17:42:24,497 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: cashday.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for credit1.fi
+www.credit1.fi
+[[34mINF[0m] Found 1 subdomains for credit1.fi in 30 seconds 132 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for credit24.fi
+www.credit24.fi
+e.credit24.fi
+hakemus.credit24.fi
+s.credit24.fi
+w.credit24.fi
+[[34mINF[0m] Found 5 subdomains for credit24.fi in 30 seconds 2 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://e.credit24.fi [[31m400[0m] [[35mFirebase,HTTP/3[0m]
+https://s.credit24.fi [[33m302[0m] [[35mHTTP/3,Nginx[0m]
+https://www.credit24.fi [[32m200[0m] [[35mGoogle Tag Manager,Imperva,React[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 3
+[[34mINF[0m] Templates clustered: 207 (Reduced 543 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 17:45:36,492 - INFO - 🕵️ JS-Jaht: https://e.credit24.fi [[31m400[0m] [[35mFirebase,HTTP/3[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://e.credit24.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 17:45:59,591 - INFO - 🕵️ JS-Jaht: https://s.credit24.fi [[33m302[0m] [[35mHTTP/3,Nginx[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://s.credit24.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+2026-06-12 17:46:22,687 - INFO - 🕵️ JS-Jaht: https://www.credit24.fi [[32m200[0m] [[35mGoogle Tag Manager,Imperva,React[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.credit24.fi
+[[34mINF[0m] Supplied input was automatically deduplicated (1 removed).
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 13
+[[34mINF[0m] Templates clustered: 95 (Reduced 1209 Requests)
+2026-06-12 17:49:22,696 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: credit24.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 17:49:22,697 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: credit24.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for creditstar.fi
+fdn.creditstar.fi
+admin.creditstar.fi
+img.sendinblue.creditstar.fi
+help.creditstar.fi
+r.sendinblue.creditstar.fi
+signicat.creditstar.fi
+app.creditstar.fi
+on.creditstar.fi
+blog.creditstar.fi
+admin.dwh.creditstar.fi
+api.creditstar.fi
+wp-demo.creditstar.fi
+old.creditstar.fi
+www.tunnistautuminen.creditstar.fi
+creditstar.fi
+services.creditstar.fi
+tunnistautuminen.creditstar.fi
+www.creditstar.fi
+[[34mINF[0m] Found 18 subdomains for creditstar.fi in 30 seconds 3 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://img.sendinblue.creditstar.fi [[33m301[0m] [[35mCloudflare,Envoy[0m]
+https://signicat.creditstar.fi [[31m404[0m] [[35mGoogle Cloud,Google Cloud CDN,HSTS,HTTP/3[0m]
+https://help.creditstar.fi [[33m302[0m] [[35mCloudflare,HSTS[0m]
+https://api.creditstar.fi [[31m403[0m] [[35mAmazon CloudFront,Amazon Web Services,Cloudflare,HTTP/3[0m]
+https://admin.creditstar.fi [[33m302[0m] [[35mCloudflare,HTTP/3[0m]
+https://r.sendinblue.creditstar.fi [[33m301[0m] [[35mEnvoy[0m]
+https://on.creditstar.fi [[33m302[0m]
+https://www.creditstar.fi [[32m200[0m] [[35mCloudflare,Elementor:3.30.2,Google Tag Manager,HTTP/3,MySQL,PHP,WordPress:6.8.1,Yoast SEO:25.4[0m]
+https://old.creditstar.fi [[31m403[0m] [[35mCloudflare,HTTP/3[0m]
+https://services.creditstar.fi [[1;33m502[0m] [[35mCloudflare,HTTP/3[0m]
+https://app.creditstar.fi [[33m301[0m] [[35mAmazon CloudFront,Amazon Web Services,Cloudflare,Google Tag Manager,HTTP/3,ZURB Foundation[0m]
+https://creditstar.fi [[33m301[0m] [[35mCloudflare,HTTP/3[0m]
+https://tunnistautuminen.creditstar.fi [[32m200[0m] [[35mApache HTTP Server,HSTS[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 13
+[[34mINF[0m] Templates clustered: 207 (Reduced 2353 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 17:58:54,392 - INFO - 🕵️ JS-Jaht: https://img.sendinblue.creditstar.fi [[33m301[0m] [[35mCloudflare,Envoy[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://img.sendinblue.creditstar.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 17:59:17,013 - INFO - 🕵️ JS-Jaht: https://signicat.creditstar.fi [[31m404[0m] [[35mGoogle Cloud,Google Cloud CDN,HSTS,HTTP/3[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://signicat.creditstar.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 17:59:39,413 - INFO - 🕵️ JS-Jaht: https://help.creditstar.fi [[33m302[0m] [[35mCloudflare,HSTS[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://help.creditstar.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 172
+[[34mINF[0m] Templates clustered: 95 (Reduced 15996 Requests)
+2026-06-12 18:22:10,039 - INFO - 🕵️ JS-Jaht: https://api.creditstar.fi [[31m403[0m] [[35mAmazon CloudFront,Amazon Web Services,Cloudflare,HTTP/3[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://api.creditstar.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 18:22:33,702 - INFO - 🕵️ JS-Jaht: https://admin.creditstar.fi [[33m302[0m] [[35mCloudflare,HTTP/3[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://admin.creditstar.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 18:22:56,171 - INFO - 🕵️ JS-Jaht: https://r.sendinblue.creditstar.fi [[33m301[0m] [[35mEnvoy[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://r.sendinblue.creditstar.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 18:23:18,896 - INFO - 🕵️ JS-Jaht: https://on.creditstar.fi [[33m302[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://on.creditstar.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 302
+[[34mINF[0m] Templates clustered: 95 (Reduced 28086 Requests)
+2026-06-12 19:02:24,009 - INFO - 🕵️ JS-Jaht: https://www.creditstar.fi [[32m200[0m] [[35mCloudflare,Elementor:3.30.2,Google Tag Manager,HTTP/3,MySQL,PHP,WordPress:6.8.1,Yoast SEO:25.4[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.creditstar.fi
+[[34mINF[0m] Supplied input was automatically deduplicated (1 removed).
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 294
+[[34mINF[0m] Templates clustered: 95 (Reduced 27342 Requests)
+2026-06-12 19:40:20,601 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: creditstar.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 19:40:20,603 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: creditstar.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 19:40:20,604 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: creditstar.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 19:40:20,605 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: creditstar.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 19:40:20,605 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: creditstar.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 19:40:20,605 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: creditstar.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 19:40:20,606 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: creditstar.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for easycredit.fi
+www.easycredit.fi
+klick.easycredit.fi
+mta-sts.easycredit.fi
+web-dev.easycredit.fi
+[[34mINF[0m] Found 4 subdomains for easycredit.fi in 30 seconds 129 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://mta-sts.easycredit.fi [[31m404[0m] [[35mAmazon CloudFront,Amazon S3,Amazon Web Services,HSTS[0m]
+https://web-dev.easycredit.fi [[31m403[0m] [[35mAmazon CloudFront,Amazon Web Services,HSTS[0m]
+https://klick.easycredit.fi [[32m200[0m] [[35mHSTS,Nginx[0m]
+https://www.easycredit.fi [[32m200[0m] [[35mAmazon CloudFront,Amazon Web Services,Azure,Google Tag Manager,HSTS[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 4
+[[34mINF[0m] Templates clustered: 207 (Reduced 724 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 19:43:43,186 - INFO - 🕵️ JS-Jaht: https://mta-sts.easycredit.fi [[31m404[0m] [[35mAmazon CloudFront,Amazon S3,Amazon Web Services,HSTS[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://mta-sts.easycredit.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 19:44:06,066 - INFO - 🕵️ JS-Jaht: https://web-dev.easycredit.fi [[31m403[0m] [[35mAmazon CloudFront,Amazon Web Services,HSTS[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://web-dev.easycredit.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 19:44:28,645 - INFO - 🕵️ JS-Jaht: https://klick.easycredit.fi [[32m200[0m] [[35mHSTS,Nginx[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://klick.easycredit.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 19:44:52,537 - INFO - 🕵️ JS-Jaht: https://www.easycredit.fi [[32m200[0m] [[35mAmazon CloudFront,Amazon Web Services,Azure,Google Tag Manager,HSTS[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.easycredit.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 57
+[[34mINF[0m] Running httpx on input host
+[[34mINF[0m] Found 1 URL from httpx
+[[34mINF[0m] Templates clustered: 95 (Reduced 5301 Requests)
+2026-06-12 19:52:35,687 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: easycredit.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 19:52:35,687 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: easycredit.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 19:52:35,687 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: easycredit.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for easylaina.fi
+www.easylaina.fi
+mail.easylaina.fi
+[[34mINF[0m] Found 2 subdomains for easylaina.fi in 30 seconds 3 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://mail.easylaina.fi [[33m301[0m] [[35mNginx[0m]
+https://www.easylaina.fi [[33m301[0m] [[35mNginx[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 2
+[[34mINF[0m] Templates clustered: 207 (Reduced 362 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 19:54:37,855 - INFO - 🕵️ JS-Jaht: https://mail.easylaina.fi [[33m301[0m] [[35mNginx[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://mail.easylaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 82
+[[34mINF[0m] Running httpx on input host
+[[34mINF[0m] Found 1 URL from httpx
+[[34mINF[0m] Templates clustered: 95 (Reduced 7626 Requests)
+2026-06-12 20:05:30,857 - INFO - 🕵️ JS-Jaht: https://www.easylaina.fi [[33m301[0m] [[35mNginx[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.easylaina.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 78
+[[34mINF[0m] Running httpx on input host
+[[34mINF[0m] Found 1 URL from httpx
+[[34mINF[0m] Templates clustered: 95 (Reduced 7254 Requests)
+2026-06-12 20:15:52,169 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: easylaina.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for easyvippi.fi
+www.easyvippi.fi
+mail.easyvippi.fi
+easyvippi.fi
+[[34mINF[0m] Found 3 subdomains for easyvippi.fi in 30 seconds 2 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for ecredit.fi
+pop.ecredit.fi
+404.ecredit.fi
+www.ecredit.fi
+mail.ecredit.fi
+smtp.ecredit.fi
+ftp.ecredit.fi
+www.404.ecredit.fi
+[[34mINF[0m] Found 7 subdomains for ecredit.fi in 58 seconds 927 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://www.404.ecredit.fi [[32m200[0m] [[35mApache HTTP Server:2[0m]
+https://smtp.ecredit.fi [[32m200[0m] [[35mApache HTTP Server:2[0m]
+https://404.ecredit.fi [[32m200[0m] [[35mApache HTTP Server:2[0m]
+https://www.ecredit.fi [] [[35mApache HTTP Server:2,PHP:7.4.33[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 4
+[[34mINF[0m] Templates clustered: 207 (Reduced 724 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:20:15,868 - INFO - 🕵️ JS-Jaht: https://www.404.ecredit.fi [[32m200[0m] [[35mApache HTTP Server:2[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.404.ecredit.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:20:46,318 - INFO - 🕵️ JS-Jaht: https://smtp.ecredit.fi [[32m200[0m] [[35mApache HTTP Server:2[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://smtp.ecredit.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:21:09,275 - INFO - 🕵️ JS-Jaht: https://404.ecredit.fi [[32m200[0m] [[35mApache HTTP Server:2[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://404.ecredit.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:21:32,954 - INFO - 🕵️ JS-Jaht: https://www.ecredit.fi [] [[35mApache HTTP Server:2,PHP:7.4.33[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.ecredit.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:21:57,285 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: ecredit.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 20:21:57,285 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: ecredit.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+2026-06-12 20:21:57,285 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: ecredit.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for ege.fi
+nettihakemus.ege.fi
+oma.ege.fi
+vippi.ege.fi
+www.ege.fi
+www.nettihakemus.ege.fi
+www.oma.ege.fi
+autodiscover.ege.fi
+[[34mINF[0m] Found 7 subdomains for ege.fi in 33 seconds 357 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://www.ege.fi [[32m200[0m] [[35mBootstrap,Google Tag Manager,IIS:10.0,Microsoft ASP.NET,Slick,Windows Server,jQuery[0m]
+http://vippi.ege.fi [[31m404[0m] [[35mMicrosoft HTTPAPI:2.0[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 2
+[[34mINF[0m] Templates clustered: 207 (Reduced 362 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:24:26,392 - INFO - 🕵️ JS-Jaht: https://www.ege.fi [[32m200[0m] [[35mBootstrap,Google Tag Manager,IIS:10.0,Microsoft ASP.NET,Slick,Windows Server,jQuery[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.ege.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 12
+[[34mINF[0m] Templates clustered: 95 (Reduced 1116 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:26:14,872 - INFO - 🕵️ JS-Jaht: http://vippi.ege.fi [[31m404[0m] [[35mMicrosoft HTTPAPI:2.0[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => http://vippi.ege.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:26:38,568 - INFO - 🔄 Duplikaat tuvastatud ja blokeeritud: ege.fi_FFUF_Fuzz Faster U Fool - v2.1.0
+
+HTTP OPTIONS:
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+[[34mINF[0m] Loading provider config from /home/coder/.config/subfinder/provider-config.yaml
+[[34mINF[0m] Enumerating subdomains for ellos.fi
+gtm.ellos.fi
+www2.ellos.fi
+beta.ellos.fi
+mail1046.email.ellos.fi
+mail1046c.email.ellos.fi
+stats.ellos.fi
+www.ellos.fi
+email.ellos.fi
+links.email.ellos.fi
+ssrgtm.ellos.fi
+[[34mINF[0m] Found 10 subdomains for ellos.fi in 40 seconds 4 milliseconds
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current httpx version v1.6.0 ([91moutdated[0m)
+https://gtm.ellos.fi [[1;33m503[0m] [[35mNginx[0m]
+https://ssrgtm.ellos.fi [[31m404[0m]
+https://stats.ellos.fi [[32m200[0m] [[35mHSTS[0m]
+https://links.email.ellos.fi [[32m200[0m] [[35mApache HTTP Server[0m]
+https://www.ellos.fi [[32m200[0m] [[35mAmazon CloudFront,Amazon Web Services,Nginx[0m]
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[31mWRN[0m] Found 2 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 2958
+[[34mINF[0m] Executing 2988 signed templates from projectdiscovery/nuclei-templates
+[[93mWRN[0m] Executing 3 unsigned templates. Use with caution.
+[[34mINF[0m] Targets loaded for current scan: 5
+[[34mINF[0m] Templates clustered: 207 (Reduced 905 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:31:06,374 - INFO - 🕵️ JS-Jaht: https://gtm.ellos.fi [[1;33m503[0m] [[35mNginx[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://gtm.ellos.fi
+2026-06-12 20:31:06,838 - INFO - 🕵️ JS-Jaht: https://ssrgtm.ellos.fi [[31m404[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://ssrgtm.ellos.fi
+/bin/sh: 1: 33m503[0m]: not found
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] No results found. Better luck next time!
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:31:31,234 - INFO - 🕵️ JS-Jaht: https://stats.ellos.fi [[32m200[0m] [[35mHSTS[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://stats.ellos.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+[[34mINF[0m] No results found. Better luck next time!
+2026-06-12 20:31:53,799 - INFO - 🕵️ JS-Jaht: https://links.email.ellos.fi [[32m200[0m] [[35mApache HTTP Server[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://links.email.ellos.fi
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 95 (Reduced 93 Requests)
+2026-06-12 20:32:24,804 - INFO - 🕵️ JS-Jaht: https://www.ellos.fi [[32m200[0m] [[35mAmazon CloudFront,Amazon Web Services,Nginx[0m]
+
+   __        __                
+  / /_____ _/ /____ ____  ___ _
+ /  '_/ _  / __/ _  / _ \/ _  /
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/							 
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current katana version v1.1.0 ([91moutdated[0m)
+[[34mINF[0m] Started standard crawling for => https://www.ellos.fi

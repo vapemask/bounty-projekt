@@ -1,0 +1,30 @@
+import os, subprocess, asyncio, aiohttp
+
+async def check_env(session, url):
+    target = url.rstrip('/') + '/.env'
+    try:
+        async with session.get(target, timeout=5, allow_redirects=False) as resp:
+            if resp.status == 200:
+                text = await resp.text()
+                if "DB_" in text or "AWS_" in text:
+                    print(f"🔥 LEID: {target}")
+                    with open("leiud.txt", "a") as f: f.write(target + "\n")
+    except: pass
+
+async def main():
+    domain = input("👉 Sisesta domeen (nt yahoo.com): ")
+    print("\n🔎 1. Otsin alamdomeene...")
+    subprocess.run(f"subfinder -d {domain} -o subs.txt", shell=True)
+    print("\n🌐 2. Kontrollin elusat sisu...")
+    subprocess.run("httpx -l subs.txt -o elusad.txt", shell=True)
+    print("\n🏹 3. Jhin .env faile...")
+    if os.path.exists("elusad.txt"):
+        with open("elusad.txt", "r") as f:
+            urls = [line.strip() for line in f if line.strip()]
+        async with aiohttp.ClientSession(headers={'User-Agent': 'Mozilla/5.0'}) as session:
+            tasks = [check_env(session, url) for url in urls]
+            await asyncio.gather(*tasks)
+    print("\n✅ Valmis! Vaata 'leiud.txt'.")
+
+if __name__ == "__main__":
+    asyncio.run(main())

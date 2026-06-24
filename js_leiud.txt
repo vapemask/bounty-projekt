@@ -1,0 +1,5 @@
+[google-api-key] [http] [info] https://app.floy.fi/main.e1219dccc637c40b.js ["AIzaSyARPJqslZ0ThyiJpkRaxDBYY_NilIZJ8r8","AIzaSyBBTgxLVKkkZy_Xj2h6l7HuBlgB-kAsFJQ"]
+[jwt-token] [http] [unknown] https://register.floy.fi/assets/index-B8z9rwmR.js ["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJiamZiemlyeWlmbW9tZnd4ZnBiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE2OTU5NzMsImV4cCI6MjA4NzI3MTk3M30.RX9J5rB6Cxi3Ic6fQ01tTxi8PEwdPaNzeLiJ4SL9drE"]
+[credentials-disclosure] [http] [unknown] 
+https://register.floy.fi/assets/index-B8z9rwmR.js ["access_token=\"access_token\""]
+[credentials-disclosure] [http] [unknown] https://app.floy.fi/main.e1219dccc637c40b.js ["ApiKey:\"AIzaSyBBTgxLVKkkZy_Xj2h6l7HuBlgB-kAsFJQ\"","ApiKey:\"ca15c03f5d5c8cac8e3f6128665d7e3e\"","googleMapsApiKey:\"AIzaSyBBTgxLVKkkZy_Xj2h6l7HuBlgB-kAsFJQ\"","ApiKey:\"AIzaSyARPJqslZ0ThyiJpkRaxDBYY_NilIZJ8r8\""]

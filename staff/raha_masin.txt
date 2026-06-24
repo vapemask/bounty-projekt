@@ -1,0 +1,94 @@
+import os
+import subprocess
+import asyncio
+import aiohttp
+import time
+
+# --- 1. KONFIGURATSIOON ---
+TELEGRAM_TOKEN = "8740053883:AAHBfNjeYIRn4YNWHxWR8_n8ztc7K86uBzc"
+CHAT_ID = "8687532870"
+KULD_PATH = "/home/coder/project/kuld.txt"
+
+def uuenda_kuld_list():
+    """Laeb alla värske 500+ kuldse nimekirja."""
+    print("Wait... Värskendan laskemoona (500+ list)...")
+    url = "https://raw.githubusercontent.com/Bo0oM/fuzz.txt/master/fuzz.txt"
+    try:
+        import requests
+        r = requests.get(url)
+        with open(KULD_PATH, "w") as f:
+            f.write(r.text)
+        print(f"✅ Kuldne nimekiri valmis.")
+    except:
+        print("⚠️ Kasutan lokaalset listi.")
+
+async def teavita(msg):
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    try:
+        async with aiohttp.ClientSession() as session:
+            await session.post(url, json={"chat_id": CHAT_ID, "text": msg})
+    except: pass
+
+async def jooksuta_nuclei(targets_file):
+    """Snaipritöö: CVE-d, Takeoverid ja konf-failid."""
+    cmd = f"nuclei -l {targets_file} -severity critical,high -tags env,git,config,backup,exposure,takeover,cve -ni -rl 15"
+    process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, text=True)
+    if process.stdout:
+        for line in process.stdout:
+            if any(x in line.lower() for x in ["[critical]", "[high]"]):
+                await teavita(f"🔴 NUCLEI LEID: {line.strip()}")
+
+async def jooksuta_js_jaht(url):
+    """KAVAL TRIKK: Otsib JS failidest peidetud võtmeid ja API-sid."""
+    print(f"🕵️ JS-Jaht: {url}")
+    # Katana tõmbab kõik JS failide lingid, Nuclei kontrollib neid 'token' ja 'secret' suhtes
+    cmd = f"katana -u {url} -d 2 -jc -em js | nuclei -tags token,secret,generic-beautifier -ni -rl 10"
+    process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, text=True)
+    if process.stdout:
+        for line in process.stdout:
+            if "info" not in line.lower():
+                await teavita(f"🔑 JS SALADUS ({url}): {line.strip()}")
+
+async def jooksuta_ffuf(url):
+    """Kuulipilduja: Fuzzing failide leidmiseks."""
+    ffuf_cmd = f"ffuf -u {url}/FUZZ -w {KULD_PATH} -e .bak,.old,.zip -mc 200,403 -t 40 -sf -s"
+    result = await asyncio.to_thread(subprocess.run, ffuf_cmd, shell=True, capture_output=True, text=True)
+    if result.stdout.strip():
+        leitud = "\n".join(result.stdout.splitlines()[:3])
+        await teavita(f"💰 FFUF LEID ({url}):\n{leitud}")
+
+async def runda_domeeni(domain):
+    await teavita(f"🎯 JAHT ALUSTATUD: {domain}")
+    subprocess.run(f"subfinder -d {domain} -all -o subs.txt", shell=True)
+    subprocess.run("httpx -l subs.txt -sc -td -o elusad.txt", shell=True)
+
+    if os.path.exists("elusad.txt") and os.path.getsize("elusad.txt") > 0:
+        with open("elusad.txt", "r") as f:
+            urls = [line.strip() for line in f if line.strip()][:8]
+
+        tasks = []
+        tasks.append(jooksuta_nuclei("elusad.txt"))
+        for url in urls:
+            tasks.append(jooksuta_ffuf(url))
+            tasks.append(jooksuta_js_jaht(url))
+        
+        await asyncio.gather(*tasks)
+
+    for f in ["subs.txt", "elusad.txt"]:
+        if os.path.exists(f): os.remove(f)
+
+async def main():
+    uuenda_kuld_list()
+    if not os.path.exists("targets.txt"): 
+        print("Loo targets.txt fail domeenidega!")
+        return
+    with open("targets.txt", "r") as f:
+        domains = [l.strip() for l in f if l.strip()]
+    
+    await teavita(f"🚀 ULTRA-MASIN (JS-EDITION) KÄIVITATUD")
+    for d in domains:
+        await runda_domeeni(d)
+    await teavita("🏆 JAHT LÕPPENUD!")
+
+if __name__ == "__main__":
+    asyncio.run(main())

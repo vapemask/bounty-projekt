@@ -1,0 +1,103 @@
+Python
+from flask import Flask, render_template_string, request, redirect, url_for
+import os, subprocess, psutil
+
+app = Flask(__name__)
+
+HTML_TEMPLATE = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🛰️ LUURE-KESKUS V2</title>
+    <meta http-equiv="refresh" content="10">
+    <style>
+        body { background: #0a0a0a; color: #00ff41; font-family: 'Courier New', monospace; padding: 20px; }
+        .box { background: #161616; border: 1px solid #333; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+        .log { white-space: pre-wrap; height: 300px; overflow-y: scroll; background: #000; padding: 10px; font-size: 12px; border: 1px solid #444; }
+        button { background: #00ff41; color: #000; border: none; padding: 10px; cursor: pointer; font-weight: bold; }
+        input { background: #000; color: #00ff41; border: 1px solid #00ff41; padding: 10px; width: 60%; }
+    </style>
+</head>
+<body>
+    <h1>🛰️ LUURE-KESKUS (VANA HEA VERSIOON)</h1>
+    <div class="box">
+        <h3>🖥️ SÜSTEEMI INFO</h3>
+        <p>CPU: {{ cpu }}% | RAM: {{ ram }}%</p>
+    </div>
+    <div class="box">
+        <h3>🎯 SIHTMÄRGID (targets.txt)</h3>
+        <pre>{{ targets }}</pre>
+        <form action="/add" method="post">
+            <input type="text" name="d" placeholder="domeen.com">
+            <button type="submit">LISA</button>
+        </form>
+    </div>
+    <div class="box">
+        <h3>📄 VIIMASED LEIUD (raha_masin.log)</h3>
+        <div class="log">{{ logid }}</div>
+    </div>
+</body>
+</html>
+"""
+
+@app.route('/')
+def index():
+    cpu = psutil.cpu_percent()
+    ram = psutil.virtual_memory().percent
+    logid = ""
+    if os.path.exists("raha_masin.log"):
+        with open("raha_masin.log", "r") as f:
+            logid = "".join(f.readlines()[-50:])
+    targets = ""
+    if os.path.exists("targets.txt"):
+        with open("targets.txt", "r") as f:
+            targets = f.read()
+    return render_template_string(HTML_TEMPLATE, cpu=cpu, ram=ram, logid=logid, targets=targets)
+
+@app.route('/add', methods=['POST'])
+def add():
+    d = request.form.get('d')
+    if d:
+        with open("targets.txt", "a") as f:
+            f.write(f"{d}\n")
+    return redirect('/')
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080)
+🛠️ SAMM 3: Taastame algse raha_masin.py
+See on see lihtne ja lollikindel versioon, mis kasutas ainult subfinderit, httpx-i ja nuclei-t.
+
+Python
+import os, subprocess, time
+
+def runda():
+    while True:
+        if os.path.exists("targets.txt"):
+            with open("targets.txt", "r") as f:
+                targets = [line.strip() for line in f if line.strip()]
+            
+            for domain in targets:
+                print(f"--- RÜNDAN: {domain} ---")
+                # 1. Leia alamdomeenid
+                subprocess.run(f"subfinder -d {domain} -o subs.txt", shell=True)
+                # 2. Kontrolli elusust
+                subprocess.run("httpx -l subs.txt -o elusad.txt", shell=True)
+                # 3. Nuclei skaneerimine
+                if os.path.exists("elusad.txt"):
+                    cmd = "nuclei -l elusad.txt -severity critical,high -o leiud.txt"
+                    subprocess.run(cmd, shell=True)
+                    
+                    # Kopeerime leiud pealogi faili
+                    if os.path.exists("leiud.txt"):
+                        with open("leiud.txt", "r") as f_leiud:
+                            leitud_info = f_leiud.read()
+                        with open("raha_masin.log", "a") as f_log:
+                            f_log.write(f"\n--- {domain} LEIUD ---\n{leitud_info}")
+                
+                print(f"--- VALMIS: {domain} ---")
+        
+        print("Ootan 60 sekundit uut tiiru...")
+        time.sleep(60)
+
+if __name__ == "__main__":
+    runda()

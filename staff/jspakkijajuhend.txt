@@ -1,0 +1,12 @@
+Kust saada JS faile testimiseks?
+Kui sul pole veel ühtegi JS faili kettal, saad proovida seda mõne avaliku failiga (näiteks jQuery):
+
+Lae fail alla:
+
+Bash
+wget https://code.jquery.com/jquery-3.7.1.min.js -O test.js
+Käivita analüsaator:
+
+Bash
+python3 jspakkija.py test.js
+ffif

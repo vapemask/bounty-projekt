@@ -1,0 +1,38 @@
+Kust saada JS faile testimiseks?
+Kui sul pole veel ühtegi JS faili kettal, saad proovida seda mõne avaliku failiga (näiteks jQuery):
+
+Lae fail alla:
+
+Bash
+wget https://code.jquery.com/jquery-3.7.1.min.js -O test.js
+Käivita analüsaator:
+
+Bash
+python3 jspakkija.py test.js
+ffif
+JS Süvaskanner ja Korrastaja
+11. mai, kell 23:16
+Ava
+
+Mis on selles skriptis uut ja kasulikku?
+Aadressi korrastaja (clean_url): See on funktsioon, mida sa soovisid. Kui skript leiab JS-koodist suhtelise tee (nt "/api/v1/login"), siis ta ühendab selle automaatselt peadomeeniga, et saaksid seda kohe testida. Samuti puhastab see URL-id mürast (sulud, semikoolonid jne).
+Süvaanalüüs (Extracting intel): See ei otsi ainult API võtmeid, vaid püüab kinni ka "Placeholderid" – kohad, kus arendaja on kirjutanud password: "mingi_tekst".
+Beautifier integreeritud: Skript teeb koodi automaatselt loetavaks, mis tähendab, et su Regex-mustrid ei "põrka" vastu kokkupakitud koodi seina.
+Raporteerimine: Tekitab sulle nii loetava .pretty.js faili kui ka süstematiseeritud .json raporti.
+Kuidas seda käivitada?
+Kopeeri see kood faili nimega js_scanner.py ja käivita see oma Cloud Shellis:
+
+Bash
+
+
+# Näide konkreetse failiga
+python3 js_scanner.py https://veebiaadressi.fi/static/js/main.a3b6db62.chunk.js
+
+See skript on nüüd sinu "info väljalugeja" kõige täpsem versioon. See on eriti võimas just nendesamade "chunk" failide puhul, mida sa varem uurima hakkasid. 
+
+**Kas soovid, et lisaksime sellele ka funktsiooni, mis hakkab neid leitud "korrastatud" aadresse automaatselt üle kontrollima (fuzzima)?**
+
+
+See on suurepärane täiendus sinu tööriistakasti. Kuna Webpacki "chunk" failid (nagu see main.a3b6db62.chunk.js) on sageli väga tihedalt pakitud ja segased, on vaja tööriista, mis suudab need "lahti harutada", URL-id korrastada ja kogu olulise info süstematiseeritult välja lugeda.
+Loon uue skripti js_scanner.py, mis on spetsiaalselt optimeeritud selliste failide jaoks. See sisaldab "aadressi korrastajat" (puhastab URL-id mürast) ja süvaskannerit, mis leiab üles kõik peidetud seosed.
+

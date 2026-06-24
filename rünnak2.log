@@ -1,0 +1,118 @@
+nohup: ignoring input
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+aasa.fi
+lainahakemus.aasa.fi
+www.aasa.fi
+[[34mINF[0m] Current subfinder version v2.6.6 ([91moutdated[0m)
+www.pikavippicc.ainalaina.fi
+www.hakemus.ainalaina.fi
+ainalainamobi.ainalaina.fi
+www.apollocapitalspain.com.ainalaina.fi
+www.ainalaina.mobi.ainalaina.fi
+www.ainalaina.fi
+pikavippi.ainalaina.fi
+hakemus.ainalaina.fi
+secure.ainalaina.fi
+cpcalendars.ainalaina.fi
+www.ainalainanet.ainalaina.fi
+ainalaina.fi
+cpcontacts.ainalaina.fi
+www.pikavippi.ainalaina.fi
+webdisk.ainalaina.fi
+ainalaina.mobi.ainalaina.fi
+pikavippicc.ainalaina.fi
+mail.ainalaina.fi
+webmail.ainalaina.fi
+cpanel.ainalaina.fi
+www.ainalainamobi.ainalaina.fi
+ainalainanet.ainalaina.fi
+apollocapitalspain.com.ainalaina.fi
+www.secure.ainalaina.fi
+https://ainalainamobi.ainalaina.fi
+https://ainalainanet.ainalaina.fi
+https://pikavippicc.ainalaina.fi
+https://www.ainalainanet.ainalaina.fi
+https://www.ainalaina.mobi.ainalaina.fi
+http://www.hakemus.ainalaina.fi
+https://cpcalendars.ainalaina.fi
+https://cpcontacts.ainalaina.fi
+https://www.pikavippi.ainalaina.fi
+https://cpanel.ainalaina.fi
+https://www.pikavippicc.ainalaina.fi
+https://www.apollocapitalspain.com.ainalaina.fi
+https://apollocapitalspain.com.ainalaina.fi
+https://www.ainalaina.fi
+https://www.ainalainamobi.ainalaina.fi
+http://hakemus.ainalaina.fi
+https://ainalaina.mobi.ainalaina.fi
+https://webmail.ainalaina.fi
+https://webdisk.ainalaina.fi
+https://mail.ainalaina.fi
+https://pikavippi.ainalaina.fi
+Error: unknown shorthand flag: 'u' in -u
+Usage:
+  gowitness single [URL] [flags]
+
+Examples:
+$ gowitness single https://twitter.com
+$ gowitness single --destination ~/tweeps_dir https://twitter.com
+$ gowitness --disable-db single --destination ~/tweeps_dir https://twitter.com
+$ gowitness single -o /screenshots/twitter.png https://twitter.com
+$ gowitness single --destination ~/screenshots -o twitter.png https://twitter.com
+
+Flags:
+  -h, --help            help for single
+  -o, --output string   write the screenshot to this file
+
+Global Flags:
+      --chrome-path string       path to chrome executable to use
+  -D, --db-location string       destination for the gowitness database. supports sqlite & postgres (eg: postgres://user:pass@host:port/db) (default "sqlite://gowitness.sqlite3")
+      --debug                    enable debug logging
+      --debug-db                 enable debug logging for all database operations
+      --delay int                delay in seconds between navigation and screenshot
+      --disable-db               disable all database operations
+      --disable-logging          disable all logging
+  -F, --fullpage                 take fullpage screenshots
+      --header strings           additional HTTP header to set. Supports multiple --header flags
+      --js string                javascript code to execute when loading a target site (eg: console.log('gowitness'))
+      --pdf                      save screenshots as pdf
+  -p, --proxy string             http/socks5 proxy to use. Use format proto://address:port
+  -X, --resolution-x int         screenshot resolution x (default 1440)
+  -Y, --resolution-y int         screenshot resolution y (default 900)
+      --screenshot-db-store      save screenshots to the database as well
+      --screenshot-filter ints   http response codes to screenshot. this is a filter. by default all codes are screenshotted
+  -P, --screenshot-path string   store path for screenshots (use . for pwd) (default "screenshots")
+      --timeout int              preflight check timeout (default 10)
+      --user-agent string        user agent string to use (default "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36")
+
+unknown shorthand flag: 'u' in -u
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.1.8
+
+		projectdiscovery.io
+
+[[34mINF[0m] nuclei-templates are not installed, installing...
+[[34mINF[0m] Your current nuclei-templates  are outdated. Latest is v10.4.4
+[[34mINF[0m] Successfully installed nuclei-templates at /home/coder/nuclei-templates
+[[34mINF[0m] Successfully updated nuclei-templates (v10.4.4) to /home/coder/nuclei-templates. GoodLuck!
+[[31mWRN[0m] Found 1 templates with syntax error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.1.8 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[93mWRN[0m] Scan results upload to cloud is disabled.
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 234
+[[34mINF[0m] Executing 234 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] No results found. Better luck next time!

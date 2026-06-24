@@ -1,0 +1,116 @@
+﻿🛰️ Bounty Hunter OS - Ghost Elite Edition
+
+Süsteemi Käivitamine (Kiirjuhend):
+1. Valmista ette keskkond:
+
+2. Bash
+mkdir -p ~/bounty-projekt && cd ~/bounty-projekt
+# Kopeeri failid Dockerfile, raha_masin.py ja veeb.py siia kausta
+
+3. 4. 5. Ehita ja käivita Docker:
+
+6. Bash
+npm install 
+docker run -d --name minu-luure -p 8081:8080 -v "$HOME/bounty-projekt:/home/coder/project" luurekeskus --auth none
+
+7. 8. 9. Käivita teenused (Konteineri sees):
+
+10. Logi sisse oma VS Code portaali (Port 8081), ava terminal ja sisesta:
+
+11. Bash
+# Käivitame juhtpuldi taustal
+nohup python3 veeb.py > veeb.log 2>&1 &
+
+
+# Käivitame ründemootori taustal
+nohup python3 raha_masin.py > rünnak.log 2>&1 &
+12. 13. 14. Miks nohup on kriitiline?
+15. Cloud Shell võib sinu sessiooni katkestada (nt interneti häire korral). nohup (No Hang UP) tagab, et isegi kui sa terminali sulged või ühendus kaob, jätkavad veeb.py ja raha_masin.py tööd 5TB ketta peal edasi.
+Sinu süsteem on nüüd "Set and Forget" režiimis. Telegram teavitab sind leidudest ja veebiliides annab ülevaate "saagist". Edu jahil!
+
+
+📁 Failistruktuur
+* Dockerfile: Süsteemi süda (Nuclei, Katana, FFUF, Gowitness jne).
+* raha_masin.py: Asünkroonne Pythoni mootor, mis teostab rünnakuid.
+* veeb.py: Flask-põhine juhtpaneel (Port 8080).
+* targets.txt: Sihtmärkide nimekiri (domeen rea kohta).
+* raha_masin.log: Kõikide leidude ja tegevuste ajalugu.
+
+
+🚀 Kiire käivitamine
+1. Ehita konteiner
+docker build -t luurekeskus .
+
+2. Käivita konteiner
+docker run -d \
+ --name minu-luure \
+ -p 8081:8080 \
+ -p 8084:8080 \
+ -p 5000:8080 \
+ -v "$HOME/bounty-projekt:/home/coder/project" \
+ luurekeskus --auth none
+
+
+
+3. Teenuste aktiveerimine (Konteineri terminalis)
+Kasuta nohup käsku, et teenused jääksid tööle ka pärast terminali sulgemist:
+# Sõltuvuste kontroll
+pip install flask requests psutil aiohttp --break-system-packages
+
+# Veebiliidese käivitamine
+nohup python3 veeb.py > veeb.log 2>&1 &
+
+# Ründemootori käivitamine
+nohup python3 raha_masin.py > rünnak.log 2>&1 &
+
+Saad taustal töötava protsessi kõige lihtsamalt sulgeda käsurealt käsuga:
+pkill -f raha_masin.py
+Kui soovid enne protsessi ID-d (PID) kontrollida, kasuta ps aux | grep raha_masin.py ja seejärel sulge see käsuga kill <PID>.
+
+🛠️ Tööriistade arsenal
+* Subfinder: Alamdomeenide tuvastamine.
+* Nuclei: Tuntud haavatavuste (CVE) skanner.
+* FFUF: Peidetud failide ja kataloogide otsing.
+* Katana: Modernne veebi-ämblik (Spider).
+* Gowitness: Automaatsed ekraanitõmmised leidudest.
+* Waybackurls: Ajalooliste URL-ide kaevandamine 5TB kettale.
+⚠️ Oluline märkus
+Kasuta seda süsteemi ainult eetilistel eesmärkidel ja programmides, kus sul on selleks luba (B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

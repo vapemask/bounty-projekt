@@ -1,0 +1,6 @@
+Flask
+aiohttp
+jsbeautifier
+requests
+psutil
+werkzeug==3.0.3

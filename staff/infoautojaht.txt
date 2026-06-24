@@ -1,0 +1,113 @@
+1. Kuidas näha KÕIKE, mis toimub?
+See käsk näitab kõiki konteinereid, isegi neid, mis on peidetud või kokku jooksnud:
+
+Bash
+docker ps -a
+
+2. Kuidas teha "Puhas Vuuk" (Kõik korraga maha)?
+Kui sa tahad kõik muud dockerid eemaldada ja jätta alles ainult puhta lehe oma uue Bounty-masina jaoks, kasuta seda kombinatsiooni:
+
+Bash
+# Peatab JÕUGA kõik jooksvad konteinerid
+docker stop $(docker ps -q) 2>/dev/null
+
+# Kustutab absoluutselt kõik konteinerid
+docker rm $(docker ps -aq) 2>/dev/null
+
+# Kustutab kõik kasutamata andmed (vahemälu, vanad võrgud jne)
+docker system prune -f
+(Märkus: 2>/dev/null on seal lihtsalt selleks, et sa ei näeks veateateid, kui ühtegi konteinerit parajasti ei jookse).
+
+3. Kuidas kontrollida, et laud on puhas?
+Trüki uuesti:
+
+Bash
+docker ps
+Kui tabel on tühi, on su Cloud Shell valmis uueks ja puhtaks docker build ja run käsuks.
+
+💡 Miks see oluline on?
+Google Cloud Shellil on limiidid. Kui sul jookseb taustal 3-4 vana jaht-station versiooni või muud prooviprojekti:
+
+Port 8080 on kinni: Uus masin ei saa käivituda.
+
+Mälu saab otsa: Skannerid (eriti Nuclei ja Katana) hakkavad "kill" teateid saama, sest RAM on täis.
+
+Kiirus langeb: CPU jagatakse kõigi vahel ära.
+
+Kas said tabeli tühjaks? Nüüd saad julgelt uue V4 Dockerfile'iga peale lennata!
+#############################################################################################################
+Lisasin DalFoxi ja Go-keskkonna sinu optimeeritud Dockerfile-i. Kuna DalFox paigaldatakse kõige paremini Go kaudu, lisasin ka Go installeerimise sammud. See muudab sinu konteineri täielikuks ründemasinaks.
+
+🐳 Uuendatud Dockerfile (V4 + DalFox)
+Dockerfile
+FROM codercom/code-server:latest
+USER root
+
+# 1. Süsteemi uuendus ja Go installimine (vajalik DalFoxi jaoks)
+RUN apt-get update && apt-get install -y \
+    python3 python3-pip git curl wget dnsutils unzip libpcap-dev nmap golang-go \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# 2. Pythoni paketid
+RUN pip3 install --no-cache-dir --break-system-packages \
+    pandas flask cloudscraper aiohttp requests beautifulsoup4 tldextract psutil
+
+WORKDIR /usr/local/bin
+
+# 3. Tööriistade allalaadimine (Subfinder, HTTPX, Nuclei, Katana, FFUF)
+RUN wget -q https://github.com/projectdiscovery/subfinder/releases/download/v2.6.6/subfinder_2.6.6_linux_amd64.zip \
+    && wget -q https://github.com/projectdiscovery/httpx/releases/download/v1.6.0/httpx_1.6.0_linux_amd64.zip \
+    && wget -q https://github.com/projectdiscovery/nuclei/releases/download/v3.1.8/nuclei_3.1.8_linux_amd64.zip \
+    && wget -q https://github.com/projectdiscovery/katana/releases/download/v1.1.0/katana_1.1.0_linux_amd64.zip \
+    && wget -q https://github.com/ffuf/ffuf/releases/download/v2.1.0/ffuf_2.1.0_linux_amd64.tar.gz
+
+# 4. Pakime lahti ja seadistame õigused
+RUN unzip -o "*.zip" && tar -xvf ffuf_2.1.0_linux_amd64.tar.gz \
+    && rm -rf *.zip *.tar.gz LICENSE README.md \
+    && chmod +x /usr/local/bin/*
+
+# 5. DalFoxi installimine Go kaudu
+ENV GOPATH=/home/coder/go
+ENV PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+RUN go install github.com/hahwul/dalfox/v2@latest && cp /home/coder/go/bin/dalfox /usr/local/bin/
+
+# 6. Nuclei mallide uuendus
+RUN nuclei -update-templates
+
+USER coder
+WORKDIR /home/coder/project
+
+##################################################################################################
+
+Seda uut Dockerfile'i (kiirem ja DalFoxiga).Sinu viimast Autojaht V4 koodi (XSS ja süvaanalüüs).
+Käivitusjuhiseid uue masina jaoks.
+Käivita konteiner uuesti (nagu varem, portidega 8082 ja 8080).
+Käivita oma uus raha_masin.py (V4 versioon) ja sisesta sihtmärk.
+Nüüd on sul olemas kõik: Subdomains -> Tech Detect -> JS Secrets -> CVE Scanning -> XSS Fuzzing. See on juba päris tõsine komplekt!
+DOCKER_BUILDKIT=1 docker build --progress=plain -t bounty-machine .
+või
+docker build -t bounty-machine .
+
+kui nimi juba olemas siis
+
+Kuidas sellest sekundiga lahti saada?
+Kopeeri ja kleebi see rida, mis kustutab vana konteineri ja paneb uue kohe käima:
+
+Bash
+docker rm -f jaht-station && docker run -d --name jaht-station \
+  -p 8082:8080 \
+  -p 8080:5000 \
+  -v $(pwd):/home/coder/project \
+  bounty-machine \
+  code-server --auth none --bind-addr 0.0.0.0:8080 /home/coder/project
+
+Mis selles käsus toimub?
+docker rm -f jaht-station: Jõuga eemaldamine. See hävitab selle vana konteineri d604621a..., mis sulle veateadet andis.
+
+&&: See märk ütleb, et "kui esimene käsk õnnestus, tee kohe teine otsa".
+
+docker run ...: Sinu uus ja parandatud V4 masin.
+
+
+
+

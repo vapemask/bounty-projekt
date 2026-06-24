@@ -1,0 +1,5 @@
+https://ssrgtm.ellos.fi [[31m404[0m]
+https://stats.ellos.fi [[32m200[0m] [[35mHSTS[0m]
+https://gtm.ellos.fi [[1;33m503[0m] [[35mNginx[0m]
+https://links.email.ellos.fi [[32m200[0m] [[35mApache HTTP Server[0m]
+https://www.ellos.fi [[32m200[0m] [[35mAmazon CloudFront,Amazon Web Services,Nginx[0m]

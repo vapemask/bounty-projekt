@@ -1,0 +1,55 @@
+FROM codercom/code-server:latest
+USER root
+
+# Paigaldame süsteemi baasvahendid ja sõltuvused
+RUN apt-get update && apt-get install -y \
+    python3 python3-pip git curl wget dnsutils unzip libpcap-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Paigaldame Pythoni raamistikud
+RUN pip3 install --no-cache-dir --break-system-packages \
+    pandas flask cloudscraper aiohttp requests \
+    beautifulsoup4 psutil
+
+# Tööriistade paigaldamine (Go-põhised binaarid)
+WORKDIR /usr/local/bin/ls
+
+# 1. Subfinder
+RUN wget https://github.com/projectdiscovery/subfinder/releases/download/v2.6.6/subfinder_2.6.6_linux_amd64.zip && \
+    unzip -o subfinder_2.6.6_linux_amd64.zip && rm subfinder_*.zip
+
+# 2. HTTPX
+RUN wget https://github.com/projectdiscovery/httpx/releases/download/v1.6.0/httpx_1.6.0_linux_amd64.zip && \
+    unzip -o httpx_1.6.0_linux_amd64.zip && rm httpx_*.zip
+
+# 3. Nuclei
+RUN wget https://github.com/projectdiscovery/nuclei/releases/download/v3.1.8/nuclei_3.1.8_linux_amd64.zip && \
+    unzip -o nuclei_3.1.8_linux_amd64.zip && rm nuclei_*.zip
+
+# 4. Katana
+RUN wget https://github.com/projectdiscovery/katana/releases/download/v1.1.0/katana_1.1.0_linux_amd64.zip && \
+    unzip -o katana_1.1.0_linux_amd64.zip && rm katana_*.zip
+
+# 5. Naabu
+RUN wget https://github.com/projectdiscovery/naabu/releases/download/v2.3.1/naabu_2.3.1_linux_amd64.zip && \
+    unzip -o naabu_2.3.1_linux_amd64.zip && rm naabu_*.zip
+
+# Gowitness (Screenshotid)
+RUN wget https://github.com/sensepost/gowitness/releases/download/2.5.1/gowitness-2.5.1-linux-amd64 -O /usr/local/bin/gowitness && \
+    chmod +x /usr/local/bin/gowitness
+
+# 6. Waybackurls (Kasutame dünaamilist asukohta)
+RUN apt-get update && apt-get install -y golang && \
+    GO111MODULE=on go install github.com/tomnomnom/waybackurls@latest && \
+    GOBIN=$(go env GOPATH)/bin && \
+    cp ${GOBIN}/waybackurls /usr/local/bin/ && \
+    apt-get purge -y golang && apt-get autoremove -y && \
+    rm -rf /root/go /home/coder/go
+# 7
+
+
+
+
+
+USER coder
+WORKDIR /home/coder/project
