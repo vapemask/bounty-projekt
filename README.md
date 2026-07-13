@@ -40,8 +40,8 @@ chmod +x setup.sh &&./setup.sh
 Kõik API võtmed ja saladused asuvad failis .env. Ära kunagi jaga seda faili avalikult!
 
 Code snippet
-TELEGRAM_TOKEN=8740053883:AAHBfNjeYIRn4YNWHxWR8_n8ztc7K86uBzc
-CHAT_ID=8687532870
+TELEGRAM_TOKEN=_
+CHAT_ID=
 ⚠️ Vastutuse välistamine
 See süsteem on loodud ainult eetiliseks turvauuringuks ja hariduslikel eesmärkidel. Autor ei vastuta süsteemi väärkasutuse eest. Kasutaja kohustub järgima kõiki seadusi ja Bug Bounty programmide reegleid.
 
@@ -93,7 +93,7 @@ raha_masin.py: Kleebi sinna asünkroonne skanner, mis kasutab aiohttp ja subproc
 
 veeb.py: Kleebi Flaski kood, mis jookseb pordil 5000.   
 
-.env: Lisa oma Telegrami token ja ID (nt TELEGRAM_TOKEN=8740053883:AAHBfNjeYIRn4YNWHxWR8_n8ztc7K86uBzc ja CHAT_ID=8687532870).   
+.env: Lisa oma Telegrami token ja ID (nt TELEGRAM_TOKEN=:_ ja CHAT_ID=).   
 
 V etapp: Süsteemi käivitamine
 Käivita ehitusprotsess (võtab aega ca 3 minutit):
